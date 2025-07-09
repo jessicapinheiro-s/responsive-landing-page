@@ -5,17 +5,17 @@ import Image from "next/image";
 
 export function Footer() {
     return (
-        <footer className="h-[58px] bg-white w-full flex flex-row items-center justify-between px-[100px] py-[11px] gap-[43px]">
-            <div className="w-2/12">
+        <footer className="min-h-[229px] bg-white w-full flex flex-row items-center justify-between px-[114px] py-[44px] gap-[43px]">
+            <div className="w-4/12 border">
                 <div>
                     <Image
                         alt="Logo"
                         src={logo}
-                        width={100}
+                        width={132}
                     />
                 </div>
-                <p>Copyright © 2020 Landify UI Kit.</p>
-                <p>All rights reserved</p>
+                <p className="text-[9px]">Copyright © 2020 Landify UI Kit.</p>
+                <p className="text-[9px]">All rights reserved</p>
                 <div className="flex flex-row">
                     <Image
                         alt="Logo"
@@ -39,30 +39,30 @@ export function Footer() {
                     />
                 </div>
             </div>
-            <div className="w-8/12 flex flex-row items-center justify-end gap-[22px]">
+            <div className="w-6/12 flex flex-row items-start justify-start gap-[20px] border">
                 <div className="w-full ">
-                    <h2>Company</h2>
-                    <nav className="flex flex-row justify-between items-center">
-                        <ul>Home</ul>
-                        <ul>Features</ul>
-                        <ul>Community</ul>
+                    <h2 className="text-[14px] font-semibold">Company</h2>
+                    <nav className="flex flex-col justify-start items-start text-[9px]">
+                        <ul>About us</ul>
                         <ul>Blog</ul>
+                        <ul>Contact us</ul>
                         <ul>Pricing</ul>
+                        <ul>Testimonials</ul>
                     </nav>
                 </div>
                 <div className="w-full ">
-                    <h2>Support</h2>
-                    <nav className="flex flex-row justify-between items-center">
-                        <ul>Home</ul>
-                        <ul>Features</ul>
-                        <ul>Community</ul>
-                        <ul>Blog</ul>
-                        <ul>Pricing</ul>
+                    <h2 className="text-[14px] font-semibold">Support</h2>
+                    <nav className="flex flex-col justify-start items-start text-[9px]">
+                        <ul>Help center</ul>
+                        <ul>Terms of service</ul>
+                        <ul>Legal</ul>
+                        <ul>Privacy policy</ul>
+                        <ul>Status</ul>
                     </nav>
                 </div>
                 <div>
-                    <h2>Stay up to date</h2>
-                    <input type="email"/>
+                    <h2 className="text-[14px] font-semibold">Stay up to date</h2>
+                    <input type="email" className="border px-2"/>
                 </div>
             </div>
         </footer>
