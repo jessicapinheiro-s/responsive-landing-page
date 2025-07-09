@@ -158,7 +158,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-row items-center justify-center gap-[20px]">
-              <div className="flex flex-row items-center justify-center gap-[11px]"> 
+              <div className="flex flex-row items-center justify-center gap-[11px]">
                 <Image
                   src={frame35}
                   alt="frame35"
@@ -186,137 +186,152 @@ export default function Home() {
           </div>
         </div>
         {/*data info*/}
-        <div className="w-full flex flex-row items-center justify-center border">
-          <Image
-            src={frame35}
-            alt="frame35"
-            className="w-full h-auto"
-            width={300}
-          />
-          <div>
-            <h1>How to design your site footer like we did</h1>
-            <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
-            <button>Learn More</button>
+        <div className="w-full  border py-[0px ]">
+          <div className="flex flex-row items-center justify-center">
+            <Image
+              src={frame35}
+              alt="frame35"
+              className="w-full h-auto"
+              width={300}
+            />
+            <div>
+              <h1 className="text-[25px] font-semibold">How to design your site footer like we did</h1>
+              <p className="text-[9px]">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+              <button>Learn More</button>
+            </div>
           </div>
         </div>
         {/*data info*/}
-        <div className="w-full flex flex-row items-center justify-center border">
-          <Image
-            src={frame35}
-            alt="frame35"
-            className="w-full h-auto"
-            width={300}
-          />
-          <div>
-            <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
-            <h2>Tim Smith</h2>
-            <p>British Dragon Boat Racing Association</p>
-            <div>
-                <div className="flex flex-row">
-                    <Image
-                      src={frame35}
-                      alt="frame35"
-                      className="w-full h-auto"
-                      width={30}
-                    />
-                    <Image
-                      src={frame35}
-                      alt="frame35"
-                      className="w-full h-auto"
-                      width={30}
-                    />
-                    <Image
-                      src={frame35}
-                      alt="frame35"
-                      className="w-full h-auto"
-                      width={30}
-                    />
-                    <Image
-                      src={frame35}
-                      alt="frame35"
-                      className="w-full h-auto"
-                      width={30}
-                    />
-                    <Image
-                      src={frame35}
-                      alt="frame35"
-                      className="w-full h-auto"
-                      width={30}
-                    />
-                    <Image
-                      src={frame35}
-                      alt="frame35"
-                      className="w-full h-auto"
-                      width={30}
-                    />
+        <div className="w-full flex flex-coll items-center justify-center border px-[100px] py-[22px] ">
+          <div className="flex flex-row  items-start justify-between border gap-[54px]">
+            <div className="w-3/12 border">
+              <Image
+                src={frame35}
+                alt="frame35"
+                className="w-full h-auto border"
+                width={226}
+              />
+            </div>
+            <div className="w-9/12 border">
+              <p className="text-[11px]">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+              <h2 className="text-[14px] font-semibold">Tim Smith</h2>
+              <p className="text-[11px]">British Dragon Boat Racing Association</p>
+              <div className="flex flex-row justify-between items-center">
+                <div className="flex flex-row w-9/12 border justify-between items-center">
+                  <Image
+                    src={icon1}
+                    alt="icon1"
+                    width={33}
+                  />
+                  <Image
+                    src={icon3}
+                    alt="icon3"
+                    width={33}
+                  />
+                  <Image
+                    src={icon4}
+                    alt="icon4"
+                    width={33}
+                  />
+                  <Image
+                    src={icon5}
+                    alt="icon5"
+                    width={33}
+                  />
+                  <Image
+                    src={icon6}
+                    alt="icon6"
+                    width={33}
+                  />
+                  <Image
+                    src={icon7}
+                    alt="icon7"
+                    width={33}
+                  />
+                  <Image
+                    src={icon8}
+                    alt="icon8"
+                    width={33}
+                  />
                 </div>
-                <div>
-                  <h2>Meet all customers</h2>
+                <div className="w-3/12 border">
+                  <h2 className="text-[14px] font-semibold text-center">Meet all customers</h2>
                 </div>
+              </div>
             </div>
           </div>
         </div>
         {/*cards*/}
-        <div className="border">
-          <div className="border">
-            <h1>Caring is the new marketing</h1>
-            <p>The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+        <div className="border flex flex-col items-center justify-center h-[100%] gap-3">
+          <div className="w-full flex flex-col gap-3 items-center justify-center">
+            <div className="w-full border text-center">
+              <h1 className="text-[44px] font-semibold h-auto">Caring is the new marketing</h1>
+            </div>
+            <div className="w-[25%] text-center">
+              <p className="text-[11px]">The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+            </div>
           </div>
-          <div className="border">
-            <div className="flex flex-row border">
-                <div className="w-4/12 border">
-                    <div>
-                      <Image
-                        src={frame35}
-                        alt="frame35"
-                        className="w-full h-auto"
-                        width={300}
-                      />
-                    </div>
-                    <div>
-                      <p>Creating Streamlined Safeguarding Processes with OneRen</p>
-                      <a href="#">Read more</a>
-                    </div>
+          <div className="w-full border px-[100px] py-[0px] h-auto">
+            <div className="flex flex-row border justify-between border-blue-500">
+              <div className="p-10 border border-green-600">
+                <div className="w-[256px] border rounded-xl flex flex-col relative border-red-300">
+                  <div className="z-10">
+                    <Image
+                      src={frame35}
+                      alt="frame35"
+                      className="w-full h-auto"
+                      width={256}
+                    />
+                  </div>
+                  <div className="w-full border flex flex-col gap-[11px] p-3 z-30 bg-slate-300 absolute top-48 rounded-xl">
+                    <p className="text-[13px] font-semibold text-center">Creating Streamlined Safeguarding Processes with OneRen</p>
+                    <a href="#" className="text-[13px] font-semibold text-center">Read more</a>
+                  </div>
                 </div>
-                <div className="w-4/12 border">
-                    <div>
-                      <Image
-                        src={frame35}
-                        alt="frame35"
-                        className="w-full h-auto"
-                        width={300}
-                      />
-                    </div>
-                    <div>
-                      <p>Creating Streamlined Safeguarding Processes with OneRen</p>
-                      <a href="#">Read more</a>
-                    </div>
+              </div>
+              <div className="p-10 border border-green-600">
+                <div className="w-[256px] border rounded-xl flex flex-col relative border-red-300">
+                  <div className="z-10">
+                    <Image
+                      src={frame35}
+                      alt="frame35"
+                      className="w-full h-auto"
+                      width={256}
+                    />
+                  </div>
+                  <div className="w-full border flex flex-col gap-[11px] p-3 z-30 bg-slate-300 absolute top-48 rounded-xl">
+                    <p className="text-[13px] font-semibold text-center">Creating Streamlined Safeguarding Processes with OneRen</p>
+                    <a href="#" className="text-[13px] font-semibold text-center">Read more</a>
+                  </div>
                 </div>
-                <div className="w-4/12 border">
-                    <div>
-                      <Image
-                        src={frame35}
-                        alt="frame35"
-                        className="w-full h-auto"
-                        width={300}
-                      />
-                    </div>
-                    <div>
-                      <p>Creating Streamlined Safeguarding Processes with OneRen</p>
-                      <a href="#">Read more</a>
-                    </div>
+              </div>
+              <div className="p-10 border border-green-600">
+                <div className="w-[256px] border rounded-xl flex flex-col relative border-red-300">
+                  <div className="z-10">
+                    <Image
+                      src={frame35}
+                      alt="frame35"
+                      className="w-full h-auto"
+                      width={256}
+                    />
+                  </div>
+                  <div className="w-full border flex flex-col gap-[11px] p-3 z-30 bg-slate-300 absolute top-48 rounded-xl">
+                    <p className="text-[13px] font-semibold text-center">Creating Streamlined Safeguarding Processes with OneRen</p>
+                    <a href="#" className="text-[13px] font-semibold text-center">Read more</a>
+                  </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
         {/*text area*/}
-        <div className="border flex flex-col">
-          <div>
-            <h1>Pellentesque suscipit fringilla libero eu.</h1>
-            <button>Get a Demo</button>
+        <div className="border flex flex-col min-h-[209px] items-center justify-center py-[22px] px-[0px] gap-[22px]">
+          <div className="text-center w-[40%] border">
+            <h1 className="text-[44px] font-semibold h-auto">Pellentesque suscipit fringilla libero eu.</h1>
           </div>
+          <button className="w-[124px] px-[22px] py-[9px] text-[11px] border">Get a Demo</button>
         </div>
-        <Footer/>
+        <Footer />
       </main>
     </React.Fragment>
   );
