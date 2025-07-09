@@ -185,7 +185,7 @@ export default function Home() {
           </div>
         </div>
         {/*data info*/}
-        <div className="w-full flex flex-row items-center justify-center">
+        <div className="w-full flex flex-row items-center justify-center border">
           <Image
             src={frame35}
             alt="frame35"
@@ -193,9 +193,126 @@ export default function Home() {
             width={300}
           />
           <div>
-            <h1></h1>
-            <p></p>
-            <button>Learn Mo</button>
+            <h1>How to design your site footer like we did</h1>
+            <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+            <button>Learn More</button>
+          </div>
+        </div>
+        {/*data info*/}
+        <div className="w-full flex flex-row items-center justify-center border">
+          <Image
+            src={frame35}
+            alt="frame35"
+            className="w-full h-auto"
+            width={300}
+          />
+          <div>
+            <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+            <h2>Tim Smith</h2>
+            <p>British Dragon Boat Racing Association</p>
+            <div>
+                <div className="flex flex-row">
+                    <Image
+                      src={frame35}
+                      alt="frame35"
+                      className="w-full h-auto"
+                      width={30}
+                    />
+                    <Image
+                      src={frame35}
+                      alt="frame35"
+                      className="w-full h-auto"
+                      width={30}
+                    />
+                    <Image
+                      src={frame35}
+                      alt="frame35"
+                      className="w-full h-auto"
+                      width={30}
+                    />
+                    <Image
+                      src={frame35}
+                      alt="frame35"
+                      className="w-full h-auto"
+                      width={30}
+                    />
+                    <Image
+                      src={frame35}
+                      alt="frame35"
+                      className="w-full h-auto"
+                      width={30}
+                    />
+                    <Image
+                      src={frame35}
+                      alt="frame35"
+                      className="w-full h-auto"
+                      width={30}
+                    />
+                </div>
+                <div>
+                  <h2>Meet all customers</h2>
+                </div>
+            </div>
+          </div>
+        </div>
+        {/*cards*/}
+        <div className="border">
+          <div className="border">
+            <h1>Caring is the new marketing</h1>
+            <p>The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+          </div>
+          <div className="border">
+            <div className="flex flex-row border">
+                <div className="w-4/12 border">
+                    <div>
+                      <Image
+                        src={frame35}
+                        alt="frame35"
+                        className="w-full h-auto"
+                        width={300}
+                      />
+                    </div>
+                    <div>
+                      <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+                      <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div className="w-4/12 border">
+                    <div>
+                      <Image
+                        src={frame35}
+                        alt="frame35"
+                        className="w-full h-auto"
+                        width={300}
+                      />
+                    </div>
+                    <div>
+                      <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+                      <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div className="w-4/12 border">
+                    <div>
+                      <Image
+                        src={frame35}
+                        alt="frame35"
+                        className="w-full h-auto"
+                        width={300}
+                      />
+                    </div>
+                    <div>
+                      <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+                      <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        {/*text area*/}
+        <div className="border flex flex-col">
+          <div>
+            <h1>Pellentesque suscipit fringilla libero eu.</h1>
+            <button>Get a Demo</button>
           </div>
         </div>
       </main>
