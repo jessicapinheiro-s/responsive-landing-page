@@ -14,6 +14,7 @@ import icon11 from "../public/Icon1(1).png";
 import icon12 from "../public/Icon1(2).png";
 import icon13 from "../public/Icon1(3).png";
 import frame35 from "../public/Frame35.png";
+import { Footer } from "@/components/header/Footer";
 
 export default function Home() {
   return (
@@ -315,6 +316,7 @@ export default function Home() {
             <button>Get a Demo</button>
           </div>
         </div>
+        <Footer/>
       </main>
     </React.Fragment>
   );
