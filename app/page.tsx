@@ -26,7 +26,7 @@ export default function Home() {
           <Image
             src={banner}
             alt="banner"
-            className="w-full h-auto"
+            className="w-full h-[700px]"
           />
         </div>
         {/*icons*/}
@@ -109,24 +109,24 @@ export default function Home() {
           </div>
         </div>
         {/*img and text*/}
-        <div className="w-full flex flex-row items-center justify-center px-[100px] border">
-          <div className="w-4/12">
+        <div className="w-full flex flex-row items-center justify-center px-[100px] border gap-[54px]">
+          <div className="w-3/12 border">
             <Image
               src={frame35}
               alt="frame35"
               className="w-full h-auto"
-              width={300}
+              width={226}
             />
           </div>
-          <div className="w-6/12">
+          <div className="w-9/12 border">
             <h1 className="text-[25px]">The unseen of spending three years at Pixelgrade</h1>
             <p className=" text-[10px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ea veniam natus et officia inventore possimus dolorem quis fuga repudiandae. Repellendus doloremque, voluptatem repellat rerum recusandae mollitia autem alias laboriosam.</p>
             <button>Learn More</button>
           </div>
         </div>
         {/*data info*/}
-        <div className="w-full flex flex-col items-center justify-center px-[100px] border">
-          <div className="w-full text-center">
+        <div className="w-full flex flex-row items-center justify-center  border gap-[54px] px-[100px] py-[44px]">
+          <div className="w-full text-left">
             <h1 className="text-[25px]">Helping a local business reinvent itself</h1>
             <p className="text-[11px]">We reached here with our hard work and dedication</p>
           </div>
@@ -186,24 +186,24 @@ export default function Home() {
           </div>
         </div>
         {/*data info*/}
-        <div className="w-full  border py-[0px ]">
-          <div className="flex flex-row items-center justify-center">
+        <div className="w-full border px-[100px] py-[22px] flex flex-row items-center justify-center gap-[54px]">
+          <div className="w-3/12 border ">
             <Image
               src={frame35}
               alt="frame35"
               className="w-full h-auto"
-              width={300}
+              width={226}
             />
-            <div>
-              <h1 className="text-[25px] font-semibold">How to design your site footer like we did</h1>
-              <p className="text-[9px]">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
-              <button>Learn More</button>
-            </div>
+          </div>
+          <div className="w-9/12 border">
+            <h1 className="text-[25px] font-semibold">How to design your site footer like we did</h1>
+            <p className="text-[9px]">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+            <button>Learn More</button>
           </div>
         </div>
         {/*data info*/}
         <div className="w-full flex flex-coll items-center justify-center border px-[100px] py-[22px] ">
-          <div className="flex flex-row  items-start justify-between border gap-[54px]">
+          <div className="flex flex-row  items-center justify-between border gap-[54px]">
             <div className="w-3/12 border">
               <Image
                 src={frame35}
