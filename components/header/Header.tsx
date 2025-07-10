@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Header() {
     return (
-        <header className="bg-white w-full flex flex-row items-center justify-between px-[100px] py-[12px] gap-[43px] ">
+        <header className="bg-white w-full flex flex-row items-center justify-between px-[150px] py-[12px] gap-[43px] ">
             <div className="w-2/12 ">
                 <Image
                     alt="Logo"
@@ -24,7 +24,7 @@ export function Header() {
                     </nav>
                 </div>
                 <div >
-                    <button className="bg-primary text-white px-[22px] py-[10px] rounded-lg">Registrer Now</button>
+                    <button className="bg-primary text-white px-[22px] py-[10px] rounded-md">Registrer Now</button>
                 </div>
             </div>
         </header>
