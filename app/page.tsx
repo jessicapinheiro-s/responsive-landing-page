@@ -142,7 +142,7 @@ export default function Home() {
         </div>
         {/*data info*/}
         <div className="w-full flex flex-col md:flex-row items-center justify-center gap-[54px] px-[30px] md:px-[250px] py-[44px] bg-silver">
-          <div className="w-full text-left ">
+          <div className="w-full text-center md:text-left ">
             <h1 className="text-[22px] md:text-[25px] font-semibold text-dgrey">Helping a local <span className="text-primary"> <br />business reinvent itself</span></h1>
             <p className="text-[11px]">We reached here with our hard work and dedication</p>
           </div>
@@ -243,7 +243,7 @@ export default function Home() {
               <h2 className="text-[14px] font-semibold">Tim Smith</h2>
               <p className="text-[11px] text-grey">British Dragon Boat Racing Association</p>
               <div className="flex flex-col md:flex-row justify-between items-center">
-                <div className="flex flex-col md:flex-row w-9/12  justify-between items-center">
+                <div className="flex flex-row w-full md:w-9/12  justify-between items-center flex-wrap">
                   <Image
                     src={icon1}
                     alt="icon1"
@@ -280,7 +280,7 @@ export default function Home() {
                     width={33}
                   />
                 </div>
-                <div className="w-3/12 ">
+                <div className="w-full md:w-3/12 ">
                   <h2 className="text-[14px] font-semibold text-center">Meet all customers</h2>
                 </div>
               </div>
@@ -308,7 +308,7 @@ export default function Home() {
                     width={256}
                   />
                 </div>
-                <div className="w-[80%]  flex flex-col gap-[11px] p-3 z-30 bg-silver absolute top-36 left-[10%] rounded-md text-grey">
+                <div className="w-[80%]  flex flex-col gap-[11px] p-3 z-30 bg-silver absolute top-44 md:top-36 left-[10%] rounded-md text-grey">
                   <p className="text-[13px] font-semibold text-center">Creating Streamlined Safeguarding Processes with OneRen</p>
                   <a href="#" className="text-[13px] font-semibold text-center text-primary">Read more</a>
                 </div>
@@ -322,7 +322,7 @@ export default function Home() {
                     width={256}
                   />
                 </div>
-                <div className="w-[80%]  flex flex-col gap-[11px] p-3 z-30 bg-silver absolute top-36 left-[10%] rounded-md text-grey">
+                <div className="w-[80%]  flex flex-col gap-[11px] p-3 z-30 bg-silver absolute top-44 md:top-36 left-[10%] rounded-md text-grey">
                   <p className="text-[13px] font-semibold text-center">What are your safeguarding responsibilities and how can you manage them?</p>
                   <a href="#" className="text-[13px] font-semibold text-center text-primary">Read more</a>
                 </div>
@@ -336,7 +336,7 @@ export default function Home() {
                     width={256}
                   />
                 </div>
-                <div className="w-[80%]  flex flex-col gap-[11px] p-3 z-30 bg-silver absolute top-36 left-[10%] rounded-md text-grey">
+                <div className="w-[80%]  flex flex-col gap-[11px] p-3 z-30 bg-silver absolute top-44 md:top-36 left-[10%] rounded-md text-grey">
                   <p className="text-[13px] font-semibold text-center">Revamping the Membership Model with Triathlon Australia</p>
                   <a href="#" className="text-[13px] font-semibold text-center text-primary">Read more</a>
                 </div>
