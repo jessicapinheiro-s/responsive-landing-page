@@ -294,7 +294,7 @@ export default function Home() {
               <h1 className="text-[22px] md:text-[44px] font-semibold h-auto">Caring is the new marketing</h1>
             </div>
             <div className="w-full md:w-[25%] text-center">
-              <p className="text-[11px] text-grey">The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+              <p className="text-[11px] text-grey">The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who&apos;s joining the community, read about how our community are increasing their membership income and lot&apos;s more.​</p>
             </div>
           </div>
           <div className="w-full  px-[30px] md:px-[250px] py-[0px] h-auto ">
