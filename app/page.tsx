@@ -51,7 +51,7 @@ export default function Home() {
             <h1 className="text-[22px] md:text-[25px] font-semibold">Our Clients</h1>
             <p className="text-[11px]">We have been working with some Fortune 500+ clients</p>
           </div>
-          <div className="md:w-[50%] flex flex-col md:flex-row justify-between items-center gap-10 flex-wrap">
+          <div className="w-full md:w-[50%] flex flex-row justify-between items-start md:items-center gap-10 flex-wrap">
             <Image
               src={icon1}
               alt="icon1"
@@ -90,14 +90,14 @@ export default function Home() {
           </div>
         </div>
         {/*cards*/}
-        <div className="w-full flex flex-col gap-[20px] ">
-          <div className="text-center">
-            <h1 className="text-[22px] md:text-[25px] font-semibold">Manage your entire community in a single system</h1>
-            <p className="text-[11px]">Who is Nextcent suitable for?</p>
-          </div>
-          <div className="w-full px-[30px] md:px-[250px]">
+        <div className="w-full ">
+          <div className="w-full flex flex-col gap-[20px] px-[30px] md:px-[250px]">
+            <div className="text-center">
+              <h1 className="text-[22px] md:text-[25px] font-semibold">Manage your entire community in a single system</h1>
+              <p className="text-[11px]">Who is Nextcent suitable for?</p>
+            </div>
             <div className="w-full flex flex-col md:flex-row justify-between items-center flex-wrap">
-              <div className="w-[208px] h-[196px] break-words text-center flex flex-col justify-center items-center gap-[5px]  px-[22px] py-[16px] rounded-md">
+              <div className="w-full md:w-[208px] h-[196px] break-words text-center flex flex-col justify-center items-center gap-[5px]  px-[22px] py-[16px] rounded-md">
                 <Image
                   src={icon11}
                   alt="icon11"
@@ -105,7 +105,7 @@ export default function Home() {
                 <h2 className="text-[19px] font-bold">Membership Organisations</h2>
                 <p className="text-[10px]">Our membership management software provides full automation of membership renewals and payments</p>
               </div>
-              <div className="w-[208px] h-[196px] break-words text-center flex flex-col justify-center items-center gap-[5px]  px-[22px] py-[16px] rounded-md">
+              <div className="w-full md:w-[208px] h-[196px] break-words text-center flex flex-col justify-center items-center gap-[5px]  px-[22px] py-[16px] rounded-md">
                 <Image
                   src={icon12}
                   alt="icon12"
@@ -113,7 +113,7 @@ export default function Home() {
                 <h2 className="text-[19px] font-bold">National Associations</h2>
                 <p className="text-[10px]">Our membership management software provides full automation of membership renewals and payments</p>
               </div>
-              <div className="w-[208px] h-[196px] break-words text-center flex flex-col justify-center items-center gap-[5px]  px-[22px] py-[16px] rounded-md">
+              <div className="w-full md:w-[208px] h-[196px] break-words text-center flex flex-col justify-center items-center gap-[5px]  px-[22px] py-[16px] rounded-md">
                 <Image
                   src={icon13}
                   alt="icon13"
@@ -147,8 +147,8 @@ export default function Home() {
             <p className="text-[11px]">We reached here with our hard work and dedication</p>
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-[27px] ">
-            <div className="w-full flex flex-col md:flex-row items-center justify-start gap-[20px] ">
-              <div className="w-[50%] flex flex-col md:flex-row items-center justify-start gap-[11px] ">
+            <div className="w-full flex flex-row items-center justify-center  md:justify-start gap-[20px] flex-wrap">
+              <div className="w-[40%] md:w-[50%] flex flex-col md:flex-row items-center justify-start gap-[11px] ">
                 <div>
                   <Image
                     src={frame35}
@@ -162,7 +162,7 @@ export default function Home() {
                   <p className="text-[11px] text-grey">Members</p>
                 </div>
               </div>
-              <div className="w-[50%] flex flex-col md:flex-row items-center justify-start gap-[11px] ">
+              <div className="w-[40%] md:w-[50%] flex flex-col md:flex-row items-center justify-start gap-[11px] ">
                 <div>
                   <Image
                     src={frame35}
@@ -177,8 +177,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-full flex flex-col md:flex-row items-center justify-start gap-[20px] ">
-              <div className="w-[50%] flex flex-col md:flex-row items-center justify-start gap-[11px]">
+            <div className="w-full flex flex-row items-center justify-center md:justify-start gap-[20px] flex-wrap">
+              <div className="w-[40%] md:w-[50%] flex flex-col md:flex-row items-center justify-start gap-[11px]">
                 <div>
                   <Image
                     src={frame35}
@@ -192,7 +192,7 @@ export default function Home() {
                   <p className="text-[11px] text-grey">Event Bookings</p>
                 </div>
               </div>
-              <div className="w-[50%] flex flex-col md:flex-row items-center justify-start gap-[11px]">
+              <div className="w-[40%] md:w-[50%] flex flex-col md:flex-row items-center justify-start gap-[11px]">
                 <div>
                   <Image
                     src={frame35}
@@ -313,33 +313,33 @@ export default function Home() {
                   <a href="#" className="text-[13px] font-semibold text-center text-primary">Read more</a>
                 </div>
               </div>
-                <div className="w-full md:w-[256px]  rounded-md flex flex-col relative ">
-                  <div className="z-10">
-                    <Image
-                      src={img19}
-                      alt="img19"
-                      className="w-full h-auto"
-                      width={256}
-                    />
-                  </div>
-                  <div className="w-[80%]  flex flex-col gap-[11px] p-3 z-30 bg-silver absolute top-36 left-[10%] rounded-md text-grey">
-                    <p className="text-[13px] font-semibold text-center">What are your safeguarding responsibilities and how can you manage them?</p>
-                    <a href="#" className="text-[13px] font-semibold text-center text-primary">Read more</a>
-                  </div>
+              <div className="w-full md:w-[256px]  rounded-md flex flex-col relative ">
+                <div className="z-10">
+                  <Image
+                    src={img19}
+                    alt="img19"
+                    className="w-full h-auto"
+                    width={256}
+                  />
                 </div>
-                <div className="w-full md:w-[256px]  rounded-md flex flex-col relative ">
-                  <div className="z-10">
-                    <Image
-                      src={img20}
-                      alt="img20"
-                      className="w-full h-auto"
-                      width={256}
-                    />
-                  </div>
-                  <div className="w-[80%]  flex flex-col gap-[11px] p-3 z-30 bg-silver absolute top-36 left-[10%] rounded-md text-grey">
-                    <p className="text-[13px] font-semibold text-center">Revamping the Membership Model with Triathlon Australia</p>
-                    <a href="#" className="text-[13px] font-semibold text-center text-primary">Read more</a>
-                  </div>
+                <div className="w-[80%]  flex flex-col gap-[11px] p-3 z-30 bg-silver absolute top-36 left-[10%] rounded-md text-grey">
+                  <p className="text-[13px] font-semibold text-center">What are your safeguarding responsibilities and how can you manage them?</p>
+                  <a href="#" className="text-[13px] font-semibold text-center text-primary">Read more</a>
+                </div>
+              </div>
+              <div className="w-full md:w-[256px]  rounded-md flex flex-col relative ">
+                <div className="z-10">
+                  <Image
+                    src={img20}
+                    alt="img20"
+                    className="w-full h-auto"
+                    width={256}
+                  />
+                </div>
+                <div className="w-[80%]  flex flex-col gap-[11px] p-3 z-30 bg-silver absolute top-36 left-[10%] rounded-md text-grey">
+                  <p className="text-[13px] font-semibold text-center">Revamping the Membership Model with Triathlon Australia</p>
+                  <a href="#" className="text-[13px] font-semibold text-center text-primary">Read more</a>
+                </div>
               </div>
             </div>
           </div>
