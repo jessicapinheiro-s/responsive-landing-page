@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Header() {
     return (
-        <header className="bg-white w-full px-[250px] py-[12px]  ">
+        <header className="bg-white w-full px-[30px] md:px-[250px] py-[12px]  ">
             <div className="flex flex-row items-center justify-between gap-[43px] ">
                 <div className="w-2/12  ">
                     <Image

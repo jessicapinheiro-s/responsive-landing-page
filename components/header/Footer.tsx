@@ -9,8 +9,8 @@ import youtubeIcon from "../../public/yotubeicon.png";
 
 export function Footer() {
     return (
-        <footer className="min-h-[229px] text-silver w-full flex flex-row items-center justify-between px-[250px] py-[44px] gap-[43px] bg-secondary">
-            <div className="w-4/12 flex flex-col items-start justify-start gap-[20px] text-[12px]">
+        <footer className="min-h-[229px] text-silver w-full flex flex-col md:flex-row items-center justify-between px-[30px] md:px-[250px] py-[44px] gap-[43px] bg-secondary">
+            <div className="w-full md:w-4/12 flex flex-col items-start justify-start gap-[20px] text-[12px]">
                 <div>
                     <Image
                         alt="Logo"
@@ -56,7 +56,7 @@ export function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="w-6/12 flex flex-row items-start justify-start gap-[20px] ">
+            <div className="w-full md:w-6/12 flex flex-col md:flex-row items-start justify-start gap-[20px] ">
                 <div className="w-full flex flex-col gap-[16px]">
                     <h2 className="text-[14px] font-semibold">Company</h2>
                     <nav className="flex flex-col justify-start items-start text-[12px] gap-[8px]">
