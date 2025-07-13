@@ -146,7 +146,7 @@ export default function Home() {
             <h1 className="text-[22px] md:text-[25px] font-semibold text-dgrey">Helping a local <span className="text-primary"> <br />business reinvent itself</span></h1>
             <p className="text-[11px]">We reached here with our hard work and dedication</p>
           </div>
-          <div className="w-full flex flex-col items-center justify-center gap-[27px] ">
+          <div className="w-full flex flex-col md:flex-row items-center justify-center gap-[27px] ">
             <div className="w-full flex flex-row md:flex-row items-center justify-center  md:justify-start gap-[20px] flex-wrap">
               <div className="w-[40%] md:w-[50%] flex flex-col md:flex-row items-center justify-start gap-[11px] ">
                 <div>
